@@ -115,7 +115,7 @@ img {
   width: 100%;
   position: fixed;
   top: 0;
-  left: 0;
+  /* left: 0; */
   z-index: var(--z-fixed);
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
@@ -136,7 +136,7 @@ img {
     height: 3rem;
     top: auto !important;
     bottom: 2.5rem !important;
-    left: 2rem;
+    right: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,11 +168,9 @@ img {
   .nav__menu {
     position: fixed;
     bottom: 2.5rem !important;
-    left: 2rem;
+    right: 2rem;
     background-color: var(--second-color);
     transition: 0.5s;
-
-    right: 0;
     width: 3rem;
     height: 3rem;
     padding: 0px;
@@ -188,7 +186,7 @@ img {
   .nav__menu ul{
     display: flex;
     justify-content: space-around;
-    margin-left: 2.2rem;
+    margin-right: 2.2rem;
     opacity: 0;
     z-index: -1;
     transition: .2s;
@@ -268,7 +266,7 @@ img {
 
 /* Show menu */
 .show {
-  right: 0;
+  /* right: 0; */
   width: 84%;
   height: 3rem;
   padding: 0px;
